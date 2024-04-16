@@ -8,7 +8,7 @@ app = Dash(__name__)
 server = app.server  # add this line
 
 app.layout = html.Div([
-    html.Div(children='My First App with Data and a Graph'),
+    html.Div(children='Welcome to capital Vision'),
     dash_table.DataTable(
         data=df.to_dict('records'), 
         page_size=10
